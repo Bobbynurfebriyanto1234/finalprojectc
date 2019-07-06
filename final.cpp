@@ -3,19 +3,19 @@ using namespace std;
 
 int main(){
 	//Deklarasi variable kunci dan pesan
-	char kunci[5], pesan[10];
+	char kunci[5], pesan[10]; //Menampung inputan kunci dan pesan
 
 	printf("****Tool Enkripsi XOR******");
 
 	//Input kunci
-	cout << "*Maksimal panjang pesan adalah 10 karakter\n ";
+	cout << "*Maksimal panjang pesan adalah 5 karakter\n ";
 	cout << "Masukkan Kunci: ";
-    cin >> kunci;
+  	cin >> kunci;
   
   	//Input pesan
-  	cout << "\n*Maksimal panjang kunci adalah 5 karakter\n ";
-    cout << "Masukkan Pesan: ";
-    cin >> pesan;
+  	cout << "\n*Maksimal panjang kunci adalah 10 karakter\n ";
+    	cout << "Masukkan Pesan: ";
+    	cin >> pesan;
 
     //Logic enkripsi XOR 
     for(int x=0; x<10; x++)
